@@ -42,15 +42,12 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.html" class="nav-link">SAIR</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">CONTATO</a></li>
 	          <li class="nav-item cta cta-colored"><a href="produtor.html" class="nav-link"><span class="icon-shopping_cart"></span></a></li>
 
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
-    <!-- END nav -->
-
     <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -63,12 +60,12 @@
 
     <section class="ftco-section">
     	<div class="container">
-    		<div class="row">
-    			<div class="col-lg-6 mb-5 ftco-animate">
-    				<a href="images/product-1.jpg" class="image-popup"><img src="images/product-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
-    			</div>
-    		   <div>
-    <div class="row">
+      <!--   <div class="row">
+          <div class="col-lg-6 mb-5 ftco-animate">
+            <a href="images/product-1.jpg" class="image-popup"><img src="images/product-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
+          </div> -->
+           <div>
+    <div>
       <div class="panel panel-primary">
         <div class="panel-body">
           <form method="POST" action="#" role="form">
@@ -76,21 +73,21 @@
               <h2>Cadastre seus produtos!</h2>
             </div>
             <div class="form-group">
-              <label class="control-label" for="name">NOME DO PRODUTO</label>
-              <input type="text" maxlength="50" class="form-control" id="name">
+              <label class="control-label" for="name">NOME DO PRODUTO:</label>
+              <input type="text" maxlength="50" class="form-control" id="name" required>
             </div>
             <div class="form-group">
-              <label class="control-label" for="price">PREÇO DO PRODUTO (R$)</label>
-              <input id="price" type="number" maxlength="50" class="form-control">
+              <label class="control-label" for="price">PREÇO DO PRODUTO (R$):</label>
+              <input id="price" type="number" maxlength="50" class="form-control" required>
             </div>
             <div class="form-group">
-              <label class="control-label" for="desc">DESCRIÇÃO PRÉVIA DO PRODUTO</label>
+              <label class="control-label" for="desc">DESCRIÇÃO PRÉVIA DO PRODUTO:</label>
               <br>
-              <textarea style="width: 100%; height: 100%;" id="desc"></textarea>
+              <textarea style="width: 100%; height: 100%;" id="desc" required></textarea>
             </div>
               <div class="form-group">
               <label class="control-label" for="img">ENVIE UMA IMAGEM DO PRODUTO</label>
-              <input id="img" type="file"class="form-control">
+              <input id="img" type="file"class="form-control" required>
             </div>
             <div class="form-group">
               <button id="cadastrar" type="submit" class="btn btn-success btn-block">CADASTRAR</button>
@@ -119,30 +116,7 @@
         <p>A Seu Market, é uma empresa focada em unir o comerciante local ao seu consumidor, de uma forma rápida, simples e efetivaefetiva. Obrigado por fazer parte desta história!</p>
         </div>
       </div>
-      <div class="col-md">
-        <div class="ftco-footer-widget mb-4 ml-md-5">
-        
-        <ul class="list-unstyled">
-        </ul>
-        </div>
-      </div>
-      <!-- <div class="col-md-4">
-         <div class="ftco-footer-widget mb-4">
-        <h2 class="ftco-heading-2">Help</h2>
-        <div class="d-flex">
-          <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
-            <li><a href="#" class="py-2 d-block">Shipping Information</a></li>
-            <li><a href="#" class="py-2 d-block">Returns &amp; Exchange</a></li>
-            <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-            <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
-          </ul>
-          <ul class="list-unstyled">
-            <li><a href="#" class="py-2 d-block">FAQs</a></li>
-            <li><a href="#" class="py-2 d-block">Contact</a></li>
-          </ul>
-          </div>
-        </div>
-      </div> -->
+   
       <div class="col-md">
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">Dúvidas?</h2>
@@ -167,7 +141,7 @@
     
   
 
-  <!-- loader -->
+  
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
